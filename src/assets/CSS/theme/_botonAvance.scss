@@ -1,0 +1,29 @@
+ /* Estilo base del botón */
+ .mitad {
+    position: relative;
+    display: inline-block;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000000; /* Borde negro */
+    outline: none;
+    color: #ffffff;
+    border-radius: 10px; /* Bordes circulares */
+  }
+
+
+  .mitad::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%; /* Ajuste el ancho según tus necesidades */
+    height: 100%;
+    background-color: blue; /* Color azul */
+    border-top-left-radius: 8px; /* Ajuste para bordes circulares */
+    border-bottom-left-radius: 8px;
+  }
+
+ 

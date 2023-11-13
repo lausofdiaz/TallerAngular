@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { CardComponent } from './card/card.component';
 import { AtomosModule } from '../atomos/atomos.module';
 import { HeaderComponent } from './header/header.component';
+import { CardAvanceComponent } from './card-avance/card-avance.component';
 
 
 
 @NgModule({
   declarations: [
     CardComponent,
-    HeaderComponent
+    HeaderComponent,
+    CardAvanceComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { HeaderComponent } from './header/header.component';
   ], 
   exports:[
     CardComponent,
-    HeaderComponent
+    HeaderComponent,
+    CardAvanceComponent
   ]
 })
 export class MoleculasModule { }

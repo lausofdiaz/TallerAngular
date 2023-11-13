@@ -5,6 +5,7 @@ import { MoleculasModule } from '../moleculas/moleculas.module';
 import { OrgaHeaderComponent } from './orga-header/orga-header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AtomosModule } from '../atomos/atomos.module';
+import { CardAvanComponent } from './card-avan/card-avan.component';
 
 
 
@@ -12,7 +13,8 @@ import { AtomosModule } from '../atomos/atomos.module';
   declarations: [
     CardOrgaComponent,
     OrgaHeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CardAvanComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { AtomosModule } from '../atomos/atomos.module';
   ], exports:[
     CardOrgaComponent,
     OrgaHeaderComponent, 
-    FooterComponent
+    FooterComponent,
+    CardAvanComponent
   ]
 })
 export class OrganismosModule { }

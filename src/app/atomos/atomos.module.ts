@@ -9,6 +9,8 @@ import { TextFooterComponent } from './text-footer/text-footer.component';
 import { RetrocederComponent } from './retroceder/retroceder.component';
 import { RegistrarseHTMLComponent } from './registrarse-html/registrarse-html.component';
 import { RegistrarseCSSComponent } from './registrarse-css/registrarse-css.component';
+import { BotonAvanceComponent } from './boton-avance/boton-avance.component';
+import { TituloAvanceComponent } from './titulo-avance/titulo-avance.component';
 
 
 
@@ -23,7 +25,9 @@ import { RegistrarseCSSComponent } from './registrarse-css/registrarse-css.compo
     TextFooterComponent,
     RetrocederComponent,
     RegistrarseHTMLComponent,
-    RegistrarseCSSComponent
+    RegistrarseCSSComponent,
+    BotonAvanceComponent,
+    TituloAvanceComponent
   ],
   exports:[
     BotonComponent,
@@ -34,7 +38,9 @@ import { RegistrarseCSSComponent } from './registrarse-css/registrarse-css.compo
     TextFooterComponent,
     RetrocederComponent,
     RegistrarseHTMLComponent,
-    RegistrarseCSSComponent
+    RegistrarseCSSComponent,
+    BotonAvanceComponent,
+    TituloAvanceComponent
   ],
   imports: [
     CommonModule
