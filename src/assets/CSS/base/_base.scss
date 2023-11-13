@@ -1,0 +1,19 @@
+/* Estilos para el botón */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #800080; /* Morado */
+    color: #ffffff; /* Texto en color blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Evitar subrayado predeterminado en algunos navegadores */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Pseudo-clases para estilos al pasar el ratón sobre el botón */
+  button:hover {
+    background-color: #4B0082; /* Cambia el color al pasar el ratón sobre el botón */
+  }
+  
