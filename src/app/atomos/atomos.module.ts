@@ -6,6 +6,9 @@ import { TituloMetoCssComponent } from './titulo/titulo-meto-css.component';
 import { H1HeaderComponent } from './h1-header/h1-header.component';
 import { MisCursosComponent } from './mis-cursos/mis-cursos.component';
 import { TextFooterComponent } from './text-footer/text-footer.component';
+import { RetrocederComponent } from './retroceder/retroceder.component';
+import { RegistrarseHTMLComponent } from './registrarse-html/registrarse-html.component';
+import { RegistrarseCSSComponent } from './registrarse-css/registrarse-css.component';
 
 
 
@@ -17,7 +20,10 @@ import { TextFooterComponent } from './text-footer/text-footer.component';
     TituloMetoCssComponent,
     H1HeaderComponent,
     MisCursosComponent,
-    TextFooterComponent
+    TextFooterComponent,
+    RetrocederComponent,
+    RegistrarseHTMLComponent,
+    RegistrarseCSSComponent
   ],
   exports:[
     BotonComponent,
@@ -25,7 +31,10 @@ import { TextFooterComponent } from './text-footer/text-footer.component';
     TituloMetoCssComponent,
     H1HeaderComponent,
     MisCursosComponent,
-    TextFooterComponent
+    TextFooterComponent,
+    RetrocederComponent,
+    RegistrarseHTMLComponent,
+    RegistrarseCSSComponent
   ],
   imports: [
     CommonModule
