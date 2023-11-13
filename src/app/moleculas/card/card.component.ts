@@ -8,4 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent {
  
   @Input() titulo="";
+  @Input() colorTitulo="";
+  @Input() colorBoton="";
+  @Input() colorBorde="";
 }
