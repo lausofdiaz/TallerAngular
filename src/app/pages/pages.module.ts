@@ -4,13 +4,15 @@ import { PaginaUnoComponent } from './pagina-uno/pagina-uno.component';
 import { OrganismosModule } from '../organismos/organismos.module';
 import { PaginaDosComponent } from './pagina-dos/pagina-dos.component';
 import { AtomosModule } from '../atomos/atomos.module';
+import { PaginaTresComponent } from './pagina-tres/pagina-tres.component';
 
 
 
 @NgModule({
   declarations: [
     PaginaUnoComponent,
-    PaginaDosComponent
+    PaginaDosComponent,
+    PaginaTresComponent
   ],
   imports: [
     CommonModule, 
@@ -18,7 +20,8 @@ import { AtomosModule } from '../atomos/atomos.module';
     AtomosModule
   ], exports:[
     PaginaUnoComponent,
-    PaginaDosComponent
+    PaginaDosComponent,
+    PaginaTresComponent
   ]
 })
 export class PagesModule { }

@@ -9,6 +9,6 @@ export class CardAvanceComponent {
 
   @Input() titulo="";
   @Input() colorTitulo="";
-  @Input() colorBoton="";
+  @Input() colorBoton:string="";
   @Input() colorBorde="";
 }

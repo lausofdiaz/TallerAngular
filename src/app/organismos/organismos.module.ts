@@ -6,6 +6,7 @@ import { OrgaHeaderComponent } from './orga-header/orga-header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AtomosModule } from '../atomos/atomos.module';
 import { CardAvanComponent } from './card-avan/card-avan.component';
+import { FormularioHTMLComponent } from './or-formulario-html/formulario-html.component';
 
 
 
@@ -14,7 +15,8 @@ import { CardAvanComponent } from './card-avan/card-avan.component';
     CardOrgaComponent,
     OrgaHeaderComponent,
     FooterComponent,
-    CardAvanComponent
+    CardAvanComponent,
+    FormularioHTMLComponent
   ],
   imports: [
     CommonModule,
@@ -24,7 +26,9 @@ import { CardAvanComponent } from './card-avan/card-avan.component';
     CardOrgaComponent,
     OrgaHeaderComponent, 
     FooterComponent,
-    CardAvanComponent
+    CardAvanComponent,
+    FormularioHTMLComponent
+  
   ]
 })
 export class OrganismosModule { }

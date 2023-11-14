@@ -11,6 +11,9 @@ import { RegistrarseHTMLComponent } from './registrarse-html/registrarse-html.co
 import { RegistrarseCSSComponent } from './registrarse-css/registrarse-css.component';
 import { BotonAvanceComponent } from './boton-avance/boton-avance.component';
 import { TituloAvanceComponent } from './titulo-avance/titulo-avance.component';
+import { MoleculasModule } from '../moleculas/moleculas.module';
+import { LabelFormularioComponent } from './label-formulario/label-formulario.component';
+import { InputFormularioComponent } from './input-formulario/input-formulario.component';
 
 
 
@@ -27,7 +30,9 @@ import { TituloAvanceComponent } from './titulo-avance/titulo-avance.component';
     RegistrarseHTMLComponent,
     RegistrarseCSSComponent,
     BotonAvanceComponent,
-    TituloAvanceComponent
+    TituloAvanceComponent,
+    LabelFormularioComponent,
+    InputFormularioComponent
   ],
   exports:[
     BotonComponent,
@@ -40,7 +45,9 @@ import { TituloAvanceComponent } from './titulo-avance/titulo-avance.component';
     RegistrarseHTMLComponent,
     RegistrarseCSSComponent,
     BotonAvanceComponent,
-    TituloAvanceComponent
+    TituloAvanceComponent,
+    LabelFormularioComponent,
+    InputFormularioComponent
   ],
   imports: [
     CommonModule

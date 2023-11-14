@@ -1,5 +1,5 @@
  /* Estilo base del botón */
- .mitad {
+ .color-boton-HTML {
     position: relative;
     display: inline-block;
     padding: 10px 120px;
@@ -7,23 +7,144 @@
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    border: 2px solid #000000; /* Borde negro */
+    border: 2px solid rgb(95, 54, 207); /* Borde negro */
     outline: none;
     color: #ffffff;
     border-radius: 10px; /* Bordes circulares */
   }
 
-
-  .mitad::before {
+  .color-boton-HTML::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 30%; /* Ajuste el ancho según tus necesidades */
     height: 100%;
-    background-color: blue; /* Color azul */
     border-top-left-radius: 8px; /* Ajuste para bordes circulares */
     border-bottom-left-radius: 8px;
+    background-color: rgb(95, 54, 207);
   }
 
- 
+  .color-boton-CSS{
+    position: relative;
+    display: inline-block;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgb(207, 54, 187); /* Borde negro */
+    outline: none;
+    color: #ffffff;
+    border-radius: 10px; /* Bordes circulares */
+}
+.color-boton-CSS::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%; /* Ajuste el ancho según tus necesidades */
+  height: 100%;
+  border-top-left-radius: 8px; /* Ajuste para bordes circulares */
+  border-bottom-left-radius: 8px;
+  background-color: rgb(207, 54, 187);
+}
+
+.color-boton-JS{
+  position: relative;
+  display: inline-block;
+  padding: 10px 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid rgb(207, 36, 36); /* Borde negro */
+  outline: none;
+  color: #ffffff;
+  border-radius: 10px; /* Bordes circulares */
+}
+.color-boton-JS::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%; /* Ajuste el ancho según tus necesidades */
+  height: 100%;
+  border-top-left-radius: 8px; /* Ajuste para bordes circulares */
+  border-bottom-left-radius: 8px;
+  background-color: rgb(207, 36, 36);
+}
+
+.color-boton-metoCSS{
+  position: relative;
+  display: inline-block;
+  padding: 10px 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid rgb(54, 207, 123); /* Borde negro */
+  outline: none;
+  color: #ffffff;
+  border-radius: 10px; /* Bordes circulares */
+}
+.color-boton-metoCSS::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%; /* Ajuste el ancho según tus necesidades */
+  height: 100%;
+  border-top-left-radius: 8px; /* Ajuste para bordes circulares */
+  border-bottom-left-radius: 8px;
+  background-color: rgb(54, 207, 123);
+}
+
+.color-boton-framFron{
+  position: relative;
+  display: inline-block;
+  padding: 10px 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid rgb(174, 207, 54); /* Borde negro */
+  outline: none;
+  color: #ffffff;
+  border-radius: 10px; /* Bordes circulares */
+}
+.color-boton-framFron::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%; /* Ajuste el ancho según tus necesidades */
+  height: 100%;
+  border-top-left-radius: 8px; /* Ajuste para bordes circulares */
+  border-bottom-left-radius: 8px;
+  background-color: rgb(174, 207, 54);
+}
+.color-boton-atomicD{
+  position: relative;
+  display: inline-block;
+  padding: 10px 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid rgb(151, 27, 27); /* Borde negro */
+  outline: none;
+  color: #ffffff;
+  border-radius: 10px; /* Bordes circulares */
+}
+.color-boton-atomicD::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%; /* Ajuste el ancho según tus necesidades */
+  height: 100%;
+  border-top-left-radius: 8px; /* Ajuste para bordes circulares */
+  border-bottom-left-radius: 8px;
+  background-color:  rgb(151, 27, 27);
+}

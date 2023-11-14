@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-boton-avance',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./boton-avance.component.scss']
 })
 export class BotonAvanceComponent {
+  @Input() colorBoton="";
 
 }

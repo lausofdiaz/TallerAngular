@@ -4,6 +4,7 @@ import { CardComponent } from './card/card.component';
 import { AtomosModule } from '../atomos/atomos.module';
 import { HeaderComponent } from './header/header.component';
 import { CardAvanceComponent } from './card-avance/card-avance.component';
+import { FormularioHTMLComponent } from './formulario-html/formulario-html.component';
 
 
 
@@ -11,7 +12,8 @@ import { CardAvanceComponent } from './card-avance/card-avance.component';
   declarations: [
     CardComponent,
     HeaderComponent,
-    CardAvanceComponent
+    CardAvanceComponent,
+    FormularioHTMLComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { CardAvanceComponent } from './card-avance/card-avance.component';
   exports:[
     CardComponent,
     HeaderComponent,
-    CardAvanceComponent
+    CardAvanceComponent,
+    FormularioHTMLComponent
   ]
 })
 export class MoleculasModule { }
