@@ -1,0 +1,24 @@
+.card2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 40px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 20px;
+    display: grid;
+    margin-left: 590px;
+    margin-bottom: 50px;
+}
+.boton {
+    grid-column: span 2; /* Ocupa dos columnas para centrarlo */
+    align-self: center; /* Centra verticalmente en la última fila */
+    justify-self: center; /* Centra horizontalmente en la última fila */
+}
+
+.input {
+  
+    border-bottom: 2px solid black; /* Línea inferior de 2 píxeles en negro */
+   
+  }

@@ -7,6 +7,9 @@ import { FooterComponent } from './footer/footer.component';
 import { AtomosModule } from '../atomos/atomos.module';
 import { CardAvanComponent } from './card-avan/card-avan.component';
 import { FormularioHTMLComponent } from './or-formulario-html/formulario-html.component';
+import { FormularioCSSComponent } from './formulario-css/formulario-css.component';
+import { OrformularioJSComponent } from './orformulario-js/orformulario-js.component';
+
 
 
 
@@ -16,7 +19,9 @@ import { FormularioHTMLComponent } from './or-formulario-html/formulario-html.co
     OrgaHeaderComponent,
     FooterComponent,
     CardAvanComponent,
-    FormularioHTMLComponent
+    FormularioHTMLComponent,
+    FormularioCSSComponent,
+    OrformularioJSComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +32,9 @@ import { FormularioHTMLComponent } from './or-formulario-html/formulario-html.co
     OrgaHeaderComponent, 
     FooterComponent,
     CardAvanComponent,
-    FormularioHTMLComponent
+    FormularioHTMLComponent,
+    FormularioCSSComponent,
+    OrformularioJSComponent
   
   ]
 })

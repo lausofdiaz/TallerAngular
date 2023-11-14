@@ -10,5 +10,6 @@ export class CardComponent {
   @Input() titulo="";
   @Input() colorTitulo="";
   @Input() colorBoton:string="";
+  @Input() idP:string="";
   @Input() colorBorde="";
 }

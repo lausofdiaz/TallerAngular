@@ -5,6 +5,8 @@ import { AtomosModule } from '../atomos/atomos.module';
 import { HeaderComponent } from './header/header.component';
 import { CardAvanceComponent } from './card-avance/card-avance.component';
 import { FormularioHTMLComponent } from './formulario-html/formulario-html.component';
+import { orFormularioCSSComponent } from './formulario-css/formulario-css.component';
+import { FormulariojsComponent } from './formulariojs/formulariojs.component';
 
 
 
@@ -13,7 +15,9 @@ import { FormularioHTMLComponent } from './formulario-html/formulario-html.compo
     CardComponent,
     HeaderComponent,
     CardAvanceComponent,
-    FormularioHTMLComponent
+    FormularioHTMLComponent,
+    orFormularioCSSComponent,
+    FormulariojsComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +27,9 @@ import { FormularioHTMLComponent } from './formulario-html/formulario-html.compo
     CardComponent,
     HeaderComponent,
     CardAvanceComponent,
-    FormularioHTMLComponent
+    FormularioHTMLComponent,
+    orFormularioCSSComponent,
+    FormulariojsComponent
   ]
 })
 export class MoleculasModule { }

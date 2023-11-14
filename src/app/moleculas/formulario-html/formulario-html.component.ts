@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-formulario-html',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./formulario-html.component.scss']
 })
 export class FormularioHTMLComponent {
-
+  @Input() colorBoton:string="";
+  @Input() colorBorde="";
+  @Input() colorTitulo="";
 }
